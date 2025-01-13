@@ -3,7 +3,7 @@
 <img src="https://i.imgur.com/3ASB3WY.png" alt="Traffic Examination"/>
 </p>
 
-<h1>Network Security Groups and Inspecting Traffic Between Azure Virtual Machines</h1>
+<h1> Network Security Groups/ Inspecting Traffic Between Azure Virtual Machines</h1>
 We will observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
 
@@ -30,8 +30,7 @@ We will observe various network traffic to and from Azure Virtual Machines with 
 <h2></h2>
 
 
- In Azure we are going  create a resource group so we can initalize both of our virtual machines. Once we have our resource group made we then want to make our first virtual machine. The first virtual machine we are going to make is a Windows 10 virtual machine. Select the resource group you made,  and then name the virtual machine windows-vm ,put in the region as east-us 2. Under image make sure you select Windows 10 Pro, version 22H as the operating system. As for the size of the machine we are going to want to use atleast 2 vcpus, and 8 gb of memory. Create a username and password , click next and advance to the Networking tab.
-
+In Azure, we will first create a resource group to initialize both of our virtual machines. Once the resource group is set up, we will proceed to create the first virtual machine, which will be a Windows 10 VM. Select the resource group you created and name the virtual machine "windows-vm," setting the region to "East US 2." For the operating system, choose "Windows 10 Pro, version 22H." When selecting the machine size, ensure it includes at least 2 vCPUs and 8 GB of memory. Create a username and password, then click "Next" to proceed to the Networking tab.
 <p>
 <img src="https://i.imgur.com/0BJ4CEM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
